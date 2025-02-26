@@ -1,5 +1,5 @@
 {
-  "install": {
-    "npm": "npm install --legacy-peer-deps"
+  "build": {
+    "buildCommand": "npm install --legacy-peer-deps && npm run build"
   }
 }
