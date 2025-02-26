@@ -24,8 +24,7 @@
     "dev": "astro dev",
     "prepare": "husky",
     "preview": "astro preview",
-    "start": "astro dev",
-    "postinstall": "npm install --legacy-peer-deps"
+    "start": "astro dev"
   },
   "lint-staged": {
     "./**/*.{js,mjs,cjs}": [
