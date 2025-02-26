@@ -18,21 +18,7 @@ const links = t('navbar', { returnObjects: true })
         </li>
       ))
     }
-    <li>
-      <a
-        class="language"
-        href={Astro.url.pathname.includes('/en')
-          ? switchLocalePath('es')
-          : switchLocalePath('en')}
-      >
-        <span>
-          <Icon name="language" size={18} />
-        </span>
-        <span>
-          {Astro.url.pathname.includes('/en') ? 'Español' : 'English'}
-        </span>
-      </a>
-    </li>
+    
     <li>
       <ToggleSwitch />
     </li>

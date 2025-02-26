@@ -1,6 +1,6 @@
 {
-  "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "title": "Fullstack Developer",
+  "description": "Fullstack Developer from Vietnam. Adept at TailwindCSS, JavaScript ES6+, TypeScript, NodeJS, NestJS, React, NextJS, and Astro",
   "navbar": [
     {
       "label": "Home",
@@ -8,40 +8,54 @@
     },
     {
       "label": "Experience",
-      "href": "/en/#work-experience"
+      "href": "#work-experience"
     },
     {
       "label": "Projects",
-      "href": "/en/#projects"
+      "href": "#projects"
     },
     {
       "label": "About me",
-      "href": "/en/#about-me"
+      "href": "#about-me"
     }
   ],
   "hero": {
     "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+    "title": "Hello I am Czer0C",
+    "job_title": "<strong>Fullstack Developer</strong> from Vietnam.",
+    "description": "Adept at TailwindCSS, JavaScript ES6+, TypeScript, NodeJS, NestJS, React, NextJS, and Astro",
     "cta": "Contact me"
   },
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": [
+        "Freelance",
+        "HD Media Nicaragua"
+      ],
       "jobs_description": [
         {
-          "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
+          "title": "Fullstack Developer",
+          "time": [
+            "Dec 2021"
+          ],
           "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "list": [
+            "Design of websites",
+            "Optimization of websites"
+          ]
         },
         {
           "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
+          "time": [
+            "Nov 2020",
+            "Oct 2021"
+          ],
           "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "list": [
+            "Design of websites",
+            "Optimization of websites"
+          ]
         }
       ]
     }
@@ -53,7 +67,12 @@
         "title": "Estelí Buses",
         "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "techs": [
+          "Astro",
+          "TailwindCSS",
+          "Firebase",
+          "PWA"
+        ],
         "code": "Code",
         "preview": "Preview"
       },
@@ -61,7 +80,13 @@
         "title": "Portafolio UX Ana Rangel",
         "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
         "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
+        "techs": [
+          "Astro",
+          "CSS",
+          "SASS",
+          "Open Props",
+          "TypeScript"
+        ],
         "code": "Code",
         "preview": "Preview"
       },
@@ -90,7 +115,13 @@
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
         "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "techs": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "WordPress"
+        ],
         "repo": "#",
         "repo_label": "Repository",
         "commits": "#"
@@ -100,7 +131,13 @@
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
         "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "techs": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "WordPress"
+        ],
         "repo": "#",
         "repo_label": "Repository",
         "commits": "#"
@@ -110,7 +147,13 @@
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
         "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "techs": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "WordPress"
+        ],
         "repo": "#",
         "repo_label": "Repository",
         "commits": "#"
@@ -119,8 +162,8 @@
   },
   "about": {
     "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "subtitle": "I'm a Czer0C a web developer enthusiast with an obsession with automation ",
+    "description": "Experienced Full-Stack Developer with a strong background in modern web frameworks, backend technologies, cloud platforms, and DevOps. Passionate about building scalable applications with a focus on performance, security, and SEO optimization. Adept at working with microservices, event-driven architectures, and cloud infrastructure. Side hobby as a blogger and content creator with high emphasis on styling and intergrity."
   },
   "contact": {
     "title": "Ready to make your dreams come true?",
