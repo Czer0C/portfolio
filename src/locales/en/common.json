@@ -29,33 +29,19 @@
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": [
-        "Freelance",
-        "HD Media Nicaragua"
-      ],
+      "jobs_title": ["Freelance", "HD Media Nicaragua"],
       "jobs_description": [
         {
           "title": "Fullstack Developer",
-          "time": [
-            "Dec 2021"
-          ],
+          "time": ["Dec 2021"],
           "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": [
-            "Design of websites",
-            "Optimization of websites"
-          ]
+          "list": ["Design of websites", "Optimization of websites"]
         },
         {
           "title": "WordPress Web Developer",
-          "time": [
-            "Nov 2020",
-            "Oct 2021"
-          ],
+          "time": ["Nov 2020", "Oct 2021"],
           "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": [
-            "Design of websites",
-            "Optimization of websites"
-          ]
+          "list": ["Design of websites", "Optimization of websites"]
         }
       ]
     }
@@ -67,12 +53,7 @@
         "title": "Estelí Buses",
         "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "Firebase",
-          "PWA"
-        ],
+        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
         "code": "Code",
         "preview": "Preview"
       },
@@ -80,13 +61,7 @@
         "title": "Portafolio UX Ana Rangel",
         "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
         "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": [
-          "Astro",
-          "CSS",
-          "SASS",
-          "Open Props",
-          "TypeScript"
-        ],
+        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
         "code": "Code",
         "preview": "Preview"
       },
@@ -115,13 +90,7 @@
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
         "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "PHP",
-          "WordPress"
-        ],
+        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
         "repo_label": "Repository",
         "commits": "#"
@@ -131,13 +100,7 @@
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
         "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "PHP",
-          "WordPress"
-        ],
+        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
         "repo_label": "Repository",
         "commits": "#"
@@ -147,13 +110,7 @@
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
         "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "PHP",
-          "WordPress"
-        ],
+        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
         "repo": "#",
         "repo_label": "Repository",
         "commits": "#"
