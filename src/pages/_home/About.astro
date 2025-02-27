@@ -57,9 +57,10 @@ const normalizeTitle = title
         }
       }
     }
+
     & .info {
       background-color: var(--bg-card-contributions);
-      border-radius: 4px;
+      border-radius: 8px;
       padding: 24px 16px;
       display: flex;
       flex-direction: column;
@@ -67,15 +68,17 @@ const normalizeTitle = title
       gap: 32px;
       margin-top: 48px;
 
+      max-width: fit-content;
+
       @media (width >= 768px) {
         padding: 48px;
-        max-width: 470px;
+        /* max-width: 700px; */
         margin-inline: auto;
       }
 
       @media (width >= 1200px) {
         flex-direction: row;
-        max-width: fit-content;
+        /* max-width: fit-content; */
       }
 
       & .picture {
