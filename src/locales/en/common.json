@@ -29,19 +29,48 @@
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": [
+        "Smart CPE Dashboard",
+        "Network Automation and Topology Traffic",
+        "Floorplan and IoT Control System",
+        "Typhoon Analytics System"
+      ],
       "jobs_description": [
         {
           "title": "Fullstack Developer",
-          "time": ["Dec 2021"],
-          "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "time": ["2024", "2025"],
+          "description": "Developed a real-time dashboard for Customer Premises Equipment (CPE) management, enabling device health monitoring, usage trend analysis, and issue diagnosis.",
+          "list": [
+            "Tech: React, GO, PostgreSQL, Retool",
+            "Impact: Aggregated telemetry data to detect anomalies, reducing diagnostic time by 25%; reduced premature cancellations by 40% through proactive customer retention efforts; leveraged Retool to cut development time by 30%."
+          ]
         },
         {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Full Stack Developer",
+          "time": ["2023", "2024"],
+          "description": "Engineered a dual-purpose system combining network automation tools and a deeply nested topology traffic diagram.",
+          "list": [
+            "Tech: Python, ReactJS, MongoDB, SSH, Kibana",
+            "Impact: Automated commands across multiple devices, reducing manual effort by 33%; built a UI showcasing traffic usage and port speeds to pinpoint bottlenecks and streamline upgrades."
+          ]
+        },
+        {
+          "title": "Full Stack Developer",
+          "time": ["2022", "2023"],
+          "description": "Created an interactive IoT-integrated floorplan control system for real-time monitoring and remote management.",
+          "list": [
+            "Tech: JavaScript, SocketIO, MQTT, Node.js, PostgreSQL, Raspberry Pi",
+            "Impact: Enabled remote control and sensor visualization, cutting on-site visits by 40% with automated interventions."
+          ]
+        },
+        {
+          "title": "Full Stack Developer",
+          "time": ["2021", "2022"],
+          "description": "Crafted a dynamic React.js frontend for a typhoon damage tracking system, delivering real-time dashboards that empowered disaster teams with actionable insights.",
+          "list": [
+            "Tech: React, JavaScript, Hadoop, Node.js, MySQL, MongoDB, Cron Jobs",
+            "Impact: Delivered a scalable UI with big data support and pre-built reports, halving analysis time compared to excel."
+          ]
         }
       ]
     }
