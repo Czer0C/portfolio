@@ -6,7 +6,8 @@ html {
   --bg-separator: #5a5a5a;
   --text-color: #fff;
   --text-description-color: #a6a6a6;
-  --font: 'Inter Variable', sans-serif;
+  --font: Atkinson, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', Segoe UI Symbol, 'Noto Color Emoji', sans-serif;
   --border-color: #5a5a5a;
   --border-card-contributions-color: #272727;
   --radius: 24px;
