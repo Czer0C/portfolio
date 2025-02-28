@@ -79,33 +79,26 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "title": "Cloudflare Shortlink",
+        "description": "A simple hobby project serves as a quick shorten link utility",
+        "image": "/src/images/projects/shortlink.jpg",
+        "techs": ["Cloudflare", "TypeScript", "NextJS"],
         "code": "Code",
         "preview": "Preview"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
+        "title": "Discord Bot",
+        "description": "A Discord bot to help automate server utility tasks like finding new manga chapter, RSS feed, and command management",
+        "image": "/src/images/projects/discord-bot.jpg",
+        "techs": ["NodeJS"],
         "code": "Code",
         "preview": "Preview"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
+        "title": "Personal Blog",
+        "description": "Movie blog to express myself and often share my in-depth analysis of the fictional works that I have experienced",
+        "image": "/src/images/projects/blog.jpg",
+        "techs": ["Astro", "Ghost", "Cloudinary"],
         "code": "Code",
         "preview": "Preview"
       }
