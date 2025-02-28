@@ -90,7 +90,7 @@
         "title": "Discord Bot",
         "description": "A Discord bot to help automate server utility tasks like finding new manga chapter, RSS feed, and command management",
         "image": "/src/images/projects/discord-bot.jpg",
-        "techs": ["NodeJS"],
+        "techs": ["NodeJS", "Docker", "Cheerio", "RSS", "Supabase"],
         "code": "Code",
         "preview": "Preview"
       },
