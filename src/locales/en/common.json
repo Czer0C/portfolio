@@ -15,6 +15,10 @@
       "href": "#projects"
     },
     {
+      "label": "Tools",
+      "href": "#tools"
+    },
+    {
       "label": "About me",
       "href": "#about-me"
     }
@@ -101,6 +105,113 @@
         "techs": ["Astro", "Ghost", "Cloudinary"],
         "code": "Code",
         "preview": "Preview"
+      }
+    ]
+  },
+  "tools": {
+    "title": "Tools That I Use",
+    "tools": [
+      {
+        "title": "Design",
+        "list": [
+          {
+            "name": "Figma",
+            "url": "https://www.figma.com/"
+          },
+          {
+            "name": "Adobe XD",
+            "url": "https://www.adobe.com/products/xd.html"
+          },
+          {
+            "name": "Adobe Photoshop",
+            "url": "https://www.adobe.com/products/photoshop.html"
+          }
+        ]
+      },
+      {
+        "title": "Frontend",
+        "list": [
+          {
+            "name": "React",
+            "url": "https://reactjs.org/"
+          },
+          {
+            "name": "NextJS",
+            "url": "https://nextjs.org/"
+          },
+          {
+            "name": "Astro",
+            "url": "https://astro.build/"
+          }
+        ]
+      },
+      {
+        "title": "Backend",
+        "list": [
+          {
+            "name": "NodeJS",
+            "url": "https://nodejs.org/"
+          },
+          {
+            "name": "NestJS",
+            "url": "https://nestjs.com/"
+          },
+          {
+            "name": "Express",
+            "url": "https://expressjs.com/"
+          }
+        ]
+      },
+      {
+        "title": "Database",
+        "list": [
+          {
+            "name": "MongoDB",
+            "url": "https://www.mongodb.com/"
+          },
+          {
+            "name": "PostgreSQL",
+            "url": "https://www.postgresql.org/"
+          },
+          {
+            "name": "MySQL",
+            "url": "https://www.mysql.com/"
+          }
+        ]
+      },
+      {
+        "title": "DevOps",
+        "list": [
+          {
+            "name": "Docker",
+            "url": "https://www.docker.com/"
+          },
+          {
+            "name": "Kubernetes",
+            "url": "https://kubernetes.io/"
+          },
+          {
+            "name": "Jenkins",
+            "url": "https://www.jenkins.io/"
+          }
+        ]
+      },
+      {
+        "title": "Others",
+        "list": [
+          {
+            "name": "TailwindCSS",
+            "url": "https://tailwindcss.com/"
+          },
+          {
+            "name": "TypeScript",
+            "url": "https://www.typescriptlang.org/"
+          },
+          {
+            "name": "GraphQL",
+            "url": "https://graphql.org/"
+          }
+        ]
       }
     ]
   },

@@ -1,0 +1,88 @@
+---
+import { t } from 'i18n:astro'
+
+const { title, tools } = t('tools', {
+  returnObjects: true
+})
+---
+
+<section id={title.toLowerCase()} class="tools">
+  <h2>
+    <span>{title}</span>
+  </h2>
+
+  <br />
+
+  <div class="tool-container">
+    {
+      tools.map(({ title, list }) => (
+        <div class="tool-block">
+          <span>{title}</span>
+
+          <div class="tools-list">
+            {list.map(({ name, url }) => (
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                <span>{name}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .tools {
+    padding-bottom: 120px;
+
+    .tool-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .tool-block {
+      color: azure;
+      border: 2px solid #333;
+      border-radius: 12px;
+      padding: 12px;
+      width: 100%;
+      display: block;
+      color: seashell;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1.2rem;
+
+      span {
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: var(--color-primary-dark);
+        }
+      }
+    }
+
+    .tools-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 1rem;
+      span {
+        color: white;
+      }
+    }
+  }
+</style>
