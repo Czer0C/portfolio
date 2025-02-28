@@ -119,11 +119,7 @@
             "url": "https://www.figma.com/"
           },
           {
-            "name": "Adobe XD",
-            "url": "https://www.adobe.com/products/xd.html"
-          },
-          {
-            "name": "Adobe Photoshop",
+            "name": "Photoshop",
             "url": "https://www.adobe.com/products/photoshop.html"
           }
         ]
@@ -142,74 +138,6 @@
           {
             "name": "Astro",
             "url": "https://astro.build/"
-          }
-        ]
-      },
-      {
-        "title": "Backend",
-        "list": [
-          {
-            "name": "NodeJS",
-            "url": "https://nodejs.org/"
-          },
-          {
-            "name": "NestJS",
-            "url": "https://nestjs.com/"
-          },
-          {
-            "name": "Express",
-            "url": "https://expressjs.com/"
-          }
-        ]
-      },
-      {
-        "title": "Database",
-        "list": [
-          {
-            "name": "MongoDB",
-            "url": "https://www.mongodb.com/"
-          },
-          {
-            "name": "PostgreSQL",
-            "url": "https://www.postgresql.org/"
-          },
-          {
-            "name": "MySQL",
-            "url": "https://www.mysql.com/"
-          }
-        ]
-      },
-      {
-        "title": "DevOps",
-        "list": [
-          {
-            "name": "Docker",
-            "url": "https://www.docker.com/"
-          },
-          {
-            "name": "Kubernetes",
-            "url": "https://kubernetes.io/"
-          },
-          {
-            "name": "Jenkins",
-            "url": "https://www.jenkins.io/"
-          }
-        ]
-      },
-      {
-        "title": "Others",
-        "list": [
-          {
-            "name": "TailwindCSS",
-            "url": "https://tailwindcss.com/"
-          },
-          {
-            "name": "TypeScript",
-            "url": "https://www.typescriptlang.org/"
-          },
-          {
-            "name": "GraphQL",
-            "url": "https://graphql.org/"
           }
         ]
       }

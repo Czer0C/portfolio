@@ -1,4 +1,5 @@
 ---
+import { Icon } from 'astro-icon/components'
 import { t } from 'i18n:astro'
 
 const { title, tools } = t('tools', {
@@ -21,9 +22,13 @@ const { title, tools } = t('tools', {
 
           <div class="tools-list">
             {list.map(({ name, url }) => (
-              <a href={url} target="_blank" rel="noopener noreferrer">
+              <span class={`badge-tech`}>
+                <Icon
+                  name={`techs/${name.toLowerCase().replaceAll(' ', '-')}`}
+                  size={24}
+                />
                 <span>{name}</span>
-              </a>
+              </span>
             ))}
           </div>
         </div>
@@ -44,13 +49,12 @@ const { title, tools } = t('tools', {
     }
 
     .tool-block {
-      color: azure;
+      color: #bcbcc2;
       border: 2px solid #333;
       border-radius: 12px;
       padding: 12px;
       width: 100%;
       display: block;
-      color: seashell;
     }
 
     a {
