@@ -1,0 +1,121 @@
+---
+import { Icon } from 'astro-icon/components'
+import { t } from 'i18n:astro'
+
+const { title, tools } = t('tools', {
+  returnObjects: true
+})
+---
+
+<section id={title.toLowerCase()} class="tools">
+  <h2>
+    <span>{title}</span>
+  </h2>
+
+  <br />
+
+  <div class="tool-container">
+    {
+      tools.map(({ title, list }) => (
+        <div class="tool-block">
+          <span>{title}</span>
+
+          <div class="tools-list">
+            {list.map(({ name, url }) => (
+              <span class={`badge-tech`}>
+                <Icon
+                  name={`techs/${name.toLowerCase().replaceAll(' ', '-')}`}
+                  size={24}
+                />
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  {name}
+                </a>
+              </span>
+            ))}
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .tools {
+    h2 {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
+      white-space: nowrap;
+      margin-bottom: 43px;
+
+      @media (width >= 768px) {
+        justify-content: start;
+
+        &::after {
+          content: '';
+          display: block;
+          width: 100%;
+          height: 1px;
+          background-color: var(--border-color);
+        }
+      }
+
+      & span {
+        order: 1;
+      }
+    }
+
+    padding-bottom: 120px;
+
+    .tool-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .tool-block {
+      color: #bcbcc2;
+      border: 2px solid #333;
+      border-radius: 12px;
+      padding: 12px;
+      width: 100%;
+      display: block;
+    }
+
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1.2rem;
+
+      span {
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: var(--color-primary-dark);
+        }
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        margin-left: 8px;
+      }
+    }
+
+    .tools-list {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      /* flex-wrap: wrap; */
+      gap: 8px;
+      font-size: 1rem;
+      span {
+        color: white;
+      }
+    }
+  }
+</style>

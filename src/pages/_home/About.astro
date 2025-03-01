@@ -15,7 +15,11 @@ const normalizeTitle = title
 ---
 
 <section id={normalizeTitle} class="about">
-  <h2>{title}</h2>
+  <h2>
+    <span>
+      {title}
+    </span>
+  </h2>
   <section class="info">
     <div class="picture">
       <Picture
@@ -55,6 +59,9 @@ const normalizeTitle = title
           height: 1px;
           background-color: var(--border-color);
         }
+      }
+      & span {
+        order: 1;
       }
     }
 
