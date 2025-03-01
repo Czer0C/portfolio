@@ -109,7 +109,7 @@
     ]
   },
   "tools": {
-    "title": "Tools That I Use",
+    "title": "Tools",
     "tools": [
       {
         "title": "Design",
@@ -121,23 +121,122 @@
           {
             "name": "Photoshop",
             "url": "https://www.adobe.com/products/photoshop.html"
+          },
+          {
+            "name": "Premiere Pro",
+            "url": "https://www.adobe.com/products/premiere.html"
+          },
+          {
+            "name": "Davinci Resolve",
+            "url": "https://www.blackmagicdesign.com/products/davinciresolve/"
           }
         ]
       },
       {
-        "title": "Frontend",
+        "title": "Productivity",
         "list": [
           {
-            "name": "React",
-            "url": "https://reactjs.org/"
+            "name": "Notion",
+            "url": "https://www.notion.so/"
           },
           {
-            "name": "NextJS",
-            "url": "https://nextjs.org/"
+            "name": "Trello",
+            "url": "https://trello.com/"
           },
           {
-            "name": "Astro",
-            "url": "https://astro.build/"
+            "name": "Plane",
+            "url": "https://plane.so/"
+          },
+          {
+            "name": "Brave",
+            "url": "https://brave.com/"
+          },
+          {
+            "name": "Chrome",
+            "url": "https://www.google.com/chrome/"
+          }
+        ]
+      },
+      {
+        "title": "Development",
+        "list": [
+          {
+            "name": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/"
+          },
+          {
+            "name": "Sublime",
+            "url": "https://www.sublimetext.com/"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com"
+          },
+          {
+            "name": "GitLab",
+            "url": "https://gitlab.com"
+          },
+          {
+            "name": "Docker",
+            "url": "https://www.docker.com/"
+          },
+          {
+            "name": "Excalidraw",
+            "url": "https://excalidraw.com/"
+          },
+          {
+            "name": "DrawIO",
+            "url": "https://app.diagrams.net/"
+          },
+          {
+            "name": "Hoppscotch",
+            "url": "https://hoppscotch.io/"
+          },
+          {
+            "name": "Retool",
+            "url": "https://retool.com/"
+          },
+          {
+            "name": "To Diagram",
+            "url": "https://todiagram.com/"
+          },
+          {
+            "name": "Mermaid JS",
+            "url": "https://mermaid.js.org/"
+          }
+        ]
+      },
+      {
+        "title": "AI",
+        "list": [
+          {
+            "name": "OpenAI",
+            "url": "https://www.openai.com/"
+          },
+          {
+            "name": "Midjourney",
+            "url": "https://midjourney.com/"
+          },
+          {
+            "name": "Github Copilot",
+            "url": "https://copilot.github.com/"
+          }
+        ]
+      },
+      {
+        "title": "OS",
+        "list": [
+          {
+            "name": "Windows",
+            "url": "https://www.microsoft.com/en-us/windows"
+          },
+          {
+            "name": "Ubuntu",
+            "url": "https://ubuntu.com/"
+          },
+          {
+            "name": "MacOS",
+            "url": "https://www.apple.com/macos"
           }
         ]
       }
