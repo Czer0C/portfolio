@@ -85,7 +85,7 @@
       {
         "title": "Cloudflare Shortlink",
         "description": "A simple hobby project serves as a quick shorten link utility",
-        "image": "/src/images/projects/shortlink.jpg",
+        "image": "/src/images/projects/short-link.jpg",
         "techs": ["Cloudflare", "TypeScript", "NextJS"],
         "code": "Code",
         "preview": "Preview"
