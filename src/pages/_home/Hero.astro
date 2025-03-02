@@ -21,9 +21,10 @@ const {
       <span>{jobAvailability}</span>
     </div>
     <h1>{title}</h1>
-    <section>
+    <section class="title">
       <p set:html={jobTitle} />
-      <p>{description}</p>
+
+      <i class="description">{description}</i>
     </section>
     <section class="button-container">
       <Button class="filled" href="#">{cta}</Button>
@@ -56,6 +57,18 @@ const {
 
       @media (width >= 992px) {
         padding: 148px 125px;
+      }
+
+      .title {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+      }
+
+      .description {
+        /* clamp text */
+        font-size: 1.2rem;
+        color: var(--text-description-color);
       }
 
       & canvas {
@@ -151,5 +164,6 @@ const {
   import { StarField } from '@scripts/starfield'
 
   const canvas = document.querySelector('#stars') as HTMLCanvasElement
+
   new StarField(canvas)
 </script>

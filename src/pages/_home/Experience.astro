@@ -28,7 +28,7 @@ const normalizeTitle = title
               }
             ]}
           >
-            {title}
+            <i>{title}</i>
           </button>
         ))
       }
@@ -116,13 +116,14 @@ const normalizeTitle = title
 
       & button {
         background: transparent;
-        color: var(--text-description-color);
+        color: var(--transition-text);
         position: relative;
         border: none;
         padding: 16px 24px;
         cursor: pointer;
         text-align: left;
         white-space: nowrap;
+        font-size: 1rem;
 
         &::before {
           content: '';

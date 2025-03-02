@@ -1,6 +1,6 @@
 {
   "title": "Fullstack Developer",
-  "description": "Fullstack Developer from Vietnam. Adept at TailwindCSS, JavaScript ES6+, TypeScript, NodeJS, NestJS, React, NextJS, and Astro",
+  "description": "Driven to craft scalable, high-performance apps with robust security, SEO, and cost-efficient solutions, leveraging reverse-engineering, microservices and cloud infrastructure.",
   "navbar": [
     {
       "label": "Home",
@@ -27,7 +27,7 @@
     "job_availability": "Available for work!",
     "title": "Hello I am Czer0C",
     "job_title": "<strong>Fullstack Developer</strong> from Vietnam.",
-    "description": "Adept at TailwindCSS, JavaScript ES6+, TypeScript, NodeJS, NestJS, React, NextJS, and Astro",
+    "description": "Driven to craft scalable, high-performance apps with robust security, SEO, and cost-efficient solutions, leveraging reverse-engineering, microservices and cloud infrastructure.",
     "cta": "Contact me"
   },
   "experience": {
@@ -255,45 +255,10 @@
       }
     ]
   },
-  "contributions": {
-    "title": "Contributions",
-    "contributions": [
-      {
-        "src": "/src/images/contributions/pexels-photo-3183171.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/pexels-photo-3183171.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/pexels-photo-3183171.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
-      }
-    ]
-  },
   "about": {
     "title": "About me",
     "subtitle": "I'm a web developer enthusiast with an obsession about automation the tedious tasks.",
-    "description": "Experienced Full-Stack Developer with a strong background in modern web frameworks, backend technologies, cloud platforms, and DevOps. Passionate about building scalable applications with a focus on performance, security, and SEO optimization. Adept at working with microservices, event-driven architectures, and cloud infrastructure. Side hobby as a blogger and content creator with high emphasis on styling and intergrity."
+    "description": "Experienced Full-Stack Developer with a strong background in modern web and backend technologies, cloud platforms, and CI/CD. Passionate about building scalable applications with a focus on performance, security, and SEO optimization. Adept at working with microservices, reverse-engineering, event-driven architectures, and cloud infrastructure. Side hobby as a blogger and content creator with high emphasis on styling and intergrity."
   },
   "contact": {
     "title": "Interested in working together?",

@@ -28,7 +28,7 @@ export class StarField {
 
   // Posición del mouse y constantes de configuración
   private readonly mousePosition = { x: -1000, y: -1000 } // Posición inicial del mouse fuera del canvas
-  private readonly SPACING = 18 // Espaciado entre estrellas
+  private readonly SPACING = 10 // Espaciado entre estrellas
   private readonly starRadius = 1 // Radio de cada estrella
   private readonly influenceRadius = 80 // Radio de influencia para el efecto de repelencia del mouse
   private canvasWidth: number
@@ -78,19 +78,47 @@ export class StarField {
 
   // Inicializar las estrellas con posiciones y propiedades aleatorias
   private initStars(): void {
+    const pattern = Math.floor(Math.random() * 2) % 2
+
     this.stars = []
 
-    // Generar estrellas en el canvas, inicializamos la posición x y y en -5 para ajustarlo correctamente
-    for (let x = -5; x < this.canvasWidth; x += this.SPACING) {
-      for (let y = -5; y < this.canvasHeight; y += this.SPACING) {
-        this.stars.push({
-          x,
-          y,
-          originalX: x, // Guardar la posición original para el efecto de "volver"
-          originalY: y,
-          alpha: Math.random(), // Opacidad aleatoria
-          speed: Math.random() * 0.005 + 0.002 // Velocidad de variación de la opacidad
-        })
+    if (pattern === 0) {
+      // Generar estrellas en el canvas, inicializamos la posición x y y en -5 para ajustarlo correctamente
+      for (let x = -3; x < this.canvasWidth; x += this.SPACING) {
+        for (let y = -3; y < this.canvasHeight; y += this.SPACING) {
+          if (Math.floor(Math.random() * 100) % 2 === 0) continue
+
+          this.stars.push({
+            x,
+            y,
+            originalX: x, // Guardar la posición original para el efecto de "volver"
+            originalY: y,
+            alpha: Math.random(), // Opacidad aleatoria
+            speed: Math.random() * 0.01 + 0.0025 // Velocidad de variación de la opacidad
+          })
+        }
+      }
+    } else {
+      const centerX = this.canvasWidth / 2
+      const centerY = this.canvasHeight / 2
+      const radius = Math.min(this.canvasWidth, this.canvasHeight)
+
+      for (let angle = 0; angle < 360; angle += this.SPACING) {
+        for (let r = 0; r < radius; r += this.SPACING) {
+          const x = centerX + r * Math.cos((angle * Math.PI) / 180)
+          const y = centerY + r * Math.sin((angle * Math.PI) / 180)
+
+          // if (Math.floor(Math.random() * 100) % 2 === 0) continue
+
+          this.stars.push({
+            x,
+            y,
+            originalX: x, // Guardar la posición original para el efecto de "volver"
+            originalY: y,
+            alpha: Math.random(), // Opacidad aleatoria
+            speed: Math.random() * 0.01 + 0.005 // Velocidad de variación de la opacidad
+          })
+        }
       }
     }
   }
