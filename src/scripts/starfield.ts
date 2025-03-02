@@ -94,7 +94,7 @@ export class StarField {
             originalX: x, // Guardar la posición original para el efecto de "volver"
             originalY: y,
             alpha: Math.random(), // Opacidad aleatoria
-            speed: Math.random() * 0.01 + 0.0025 // Velocidad de variación de la opacidad
+            speed: Math.random() * 0.0005 + 0.0002 // Velocidad de variación de la opacidad
           })
         }
       }
