@@ -29,7 +29,7 @@ export class StarField {
   // Posición del mouse y constantes de configuración
   private readonly mousePosition = { x: -1000, y: -1000 } // Posición inicial del mouse fuera del canvas
   private readonly SPACING = 10 // Espaciado entre estrellas
-  private readonly starRadius = 1 // Radio de cada estrella
+  private readonly starRadius = 3 // Increased radius for bigger stars
   private readonly influenceRadius = 80 // Radio de influencia para el efecto de repelencia del mouse
   private canvasWidth: number
   private canvasHeight: number
@@ -170,11 +170,13 @@ export class StarField {
   private addEventListeners(): void {
     this.canvas.parentElement?.addEventListener(
       'mousemove',
-      this.onMouseMove.bind(this)
+      this.onMouseMove.bind(this),
+      { passive: true }
     )
     this.canvas.parentElement?.addEventListener(
       'mouseleave',
-      this.onMouseLeave.bind(this)
+      this.onMouseLeave.bind(this),
+      { passive: true }
     )
   }
 
