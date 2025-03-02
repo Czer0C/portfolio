@@ -76,7 +76,9 @@ const { title, tools } = t('tools', {
     }
 
     .tool-block {
-      color: #bcbcc2;
+      /* color: #bcbcc2; */
+      color: var(--text-description-color);
+
       border: 2px solid #333;
       border-radius: 12px;
       padding: 12px;
@@ -101,9 +103,10 @@ const { title, tools } = t('tools', {
       }
 
       a {
-        color: white;
+        /* color: white; */
         text-decoration: none;
         margin-left: 8px;
+        color: var(--text-color);
       }
     }
 
@@ -114,7 +117,8 @@ const { title, tools } = t('tools', {
       gap: 8px;
       font-size: 1rem;
       span {
-        color: white;
+        /* color: white; */
+        color: var(--text-color);
       }
     }
   }

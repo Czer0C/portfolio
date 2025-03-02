@@ -4,13 +4,21 @@ import { Icon } from 'astro-icon/components'
 
 <aside class="socials">
   <nav>
-    <a href="#" aria-label="GitHub">
+    <a href="#" aria-label="Mail">
+      <Icon name="top" size={28} />
+    </a>
+    <a
+      href="https://github.com/czer0C"
+      aria-label="GitHub"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <Icon name="github" size={28} />
     </a>
-    <a href="#" aria-label="LinkedIn">
+    <a href={null} aria-label="LinkedIn">
       <Icon name="linkedin" size={28} />
     </a>
-    <a href="#" aria-label="Mail">
+    <a href={null} aria-label="Mail">
       <Icon name="mail" size={28} />
     </a>
   </nav>
@@ -24,8 +32,8 @@ import { Icon } from 'astro-icon/components'
       display: initial;
       position: fixed;
       bottom: 0;
-      left: 0;
-      translate: 46px;
+      right: 0;
+      translate: -46px;
 
       & nav {
         display: flex;

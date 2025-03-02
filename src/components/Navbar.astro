@@ -23,6 +23,7 @@ const links = t('navbar', { returnObjects: true })
       <ToggleSwitch />
     </li>
   </ul>
+
   <button id="menu-button">
     <Icon name="menu" size={36} />
   </button>
@@ -350,6 +351,7 @@ const links = t('navbar', { returnObjects: true })
 
   function toggleDarkMode(state: boolean) {
     document.documentElement.classList.toggle('dark', state)
+
     toggleThumbs.forEach((thumb) => {
       thumb.classList.toggle('active', state)
     })
