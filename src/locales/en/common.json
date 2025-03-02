@@ -103,7 +103,8 @@
         "image": "/src/images/projects/discord-bot.jpg",
         "techs": ["NodeJS", "Docker", "Cheerio", "RSS", "Supabase"],
         "code": "Code",
-        "preview": "Preview"
+        "preview": "Preview",
+        "link": ""
       },
       {
         "title": "Personal Blog",
@@ -187,6 +188,10 @@
           {
             "name": "Docker",
             "url": "https://www.docker.com/"
+          },
+          {
+            "name": "Cloudinary",
+            "url": "https://cloudinary.com/"
           },
           {
             "name": "Excalidraw",
@@ -291,8 +296,8 @@
     "description": "Experienced Full-Stack Developer with a strong background in modern web frameworks, backend technologies, cloud platforms, and DevOps. Passionate about building scalable applications with a focus on performance, security, and SEO optimization. Adept at working with microservices, event-driven architectures, and cloud infrastructure. Side hobby as a blogger and content creator with high emphasis on styling and intergrity."
   },
   "contact": {
-    "title": "Ready to make your dreams come true?",
-    "subtitle": "I can boost your project or be part of your team"
+    "title": "Interested in working together?",
+    "subtitle": "I'm available for freelance projects and full-time positions."
   },
   "footer": {
     "designed": {

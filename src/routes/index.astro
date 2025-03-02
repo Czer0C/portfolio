@@ -3,6 +3,7 @@ import { t } from 'i18n:astro'
 import { URL } from '@data/constants'
 import Layout from '@layouts/Layout.astro'
 import About from '@pages/_home/About.astro'
+import Contact from '@pages/_home/Contact.astro'
 // import Contact from '@pages/_home/Contact.astro'
 import Experience from '@pages/_home/Experience.astro'
 import Hero from '@pages/_home/Hero.astro'
@@ -17,7 +18,7 @@ const options = {
 ---
 
 <Layout options={options}>
-  <OpenGraph information={options} image=`${URL}/og/unicorn-sparkle-og.png` />
+  <OpenGraph information={options} image=`${URL}/og/hero-cover.jpg` />
 
   <main>
     <Hero />
@@ -25,7 +26,7 @@ const options = {
     <Projects />
     <Tools />
     <About />
-    <!-- <Contact /> -->
+    <Contact />
   </main>
 </Layout>
 
