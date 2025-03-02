@@ -86,9 +86,16 @@
         "title": "Cloudflare Shortlink",
         "description": "A simple hobby project serves as a quick shorten link utility",
         "image": "/src/images/projects/shortlink.jpg",
-        "techs": ["Cloudflare", "TypeScript", "NextJS"],
+        "techs": [
+          "Cloudflare",
+          "NextJS",
+          "Radix UI",
+          "Shadcn UI",
+          "TailwindCSS"
+        ],
         "code": "Code",
-        "preview": "Preview"
+        "link": "https://cloudflare-shortlink.vercel.app/",
+        "preview": "Visit"
       },
       {
         "title": "Discord Bot",
@@ -102,9 +109,10 @@
         "title": "Personal Blog",
         "description": "Movie blog to express myself and often share my in-depth analysis of the fictional works that I have experienced",
         "image": "/src/images/projects/blog.jpg",
-        "techs": ["Astro", "Ghost", "Cloudinary"],
+        "techs": ["Astro", "Ghost", "Cloudinary", "TailwindCSS", "SolidJS"],
         "code": "Code",
-        "preview": "Preview"
+        "preview": "Preview",
+        "link": "https://gaft.space"
       }
     ]
   },
