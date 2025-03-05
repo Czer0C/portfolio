@@ -112,7 +112,7 @@
         "image": "/src/images/projects/blog.jpg",
         "techs": ["Astro", "Ghost", "Cloudinary", "TailwindCSS", "SolidJS"],
         "code": "Code",
-        "preview": "Preview",
+        "preview": "Visit",
         "link": "https://gaft.space"
       }
     ]
