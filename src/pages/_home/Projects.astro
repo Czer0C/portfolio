@@ -13,7 +13,7 @@ const { title, projects } = t('projects', {
   </h2>
   {
     projects.map(
-      ({ title, description, image, techs, code, preview, link }) => (
+      ({ title, description, image, techs, code, preview, link, source }) => (
         <CardProject
           src={image}
           alt={title}
@@ -23,6 +23,7 @@ const { title, projects } = t('projects', {
           code={code}
           preview={preview}
           link={link}
+          source={source}
         />
       )
     )

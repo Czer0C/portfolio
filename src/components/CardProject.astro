@@ -4,6 +4,11 @@ import { Icon } from 'astro-icon/components'
 import { Picture } from 'astro:assets'
 import '@styles/tech-colors.css'
 
+interface Source {
+  name: string
+  url: string
+}
+
 interface Props {
   src: string
   alt: string
@@ -13,9 +18,11 @@ interface Props {
   code: string
   preview?: string
   link?: string
+  source: Source[]
 }
 
-const { src, alt, title, description, techs, code, preview, link } = Astro.props
+const { src, alt, title, description, techs, preview, link, source } =
+  Astro.props
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   '/src/images/projects/*.{jpeg,jpg,png}'
@@ -61,10 +68,15 @@ if (!images[src])
     </div>
     <p>{description}</p>
     <div class="links">
-      <a href="#">
-        <Icon name="github" size={24} />
-        {code}
-      </a>
+      {
+        source.map(({ name, url }) => (
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            <Icon name="github" size={24} />
+
+            {name}
+          </a>
+        ))
+      }
       {
         link && (
           <a href={link} target="_blank" rel="noopener noreferrer">

@@ -95,7 +95,17 @@
         ],
         "code": "Code",
         "link": "https://www.czer0c.top",
-        "preview": "Visit"
+        "preview": "Visit",
+        "source": [
+          {
+            "name": "Worker",
+            "url": "https://github.com/Czer0C/cloudflare-shortlink-worker"
+          },
+          {
+            "name": "Web",
+            "url": "https://github.com/Czer0C/cloudflare-shortlink"
+          }
+        ]
       },
       {
         "title": "Discord Bot",
@@ -104,7 +114,13 @@
         "techs": ["NodeJS", "Docker", "Cheerio", "RSS", "Supabase"],
         "code": "Code",
         "preview": "Preview",
-        "link": ""
+        "link": "",
+        "source": [
+          {
+            "name": "Worker",
+            "url": "https://github.com/Czer0C/Discord-Bot"
+          }
+        ]
       },
       {
         "title": "Personal Blog",
@@ -113,7 +129,13 @@
         "techs": ["Astro", "Ghost", "Cloudinary", "TailwindCSS", "SolidJS"],
         "code": "Code",
         "preview": "Visit",
-        "link": "https://gaft.space"
+        "link": "https://gaft.space",
+        "source": [
+          {
+            "name": "Web",
+            "url": "https://github.com/Czer0C/Gaft-Blog"
+          }
+        ]
       }
     ]
   },
