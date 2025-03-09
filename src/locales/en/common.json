@@ -109,7 +109,7 @@
       },
       {
         "title": "Ollama Chat",
-        "description": "AI Botchat with models provided via Ollama, fully managed and open-source",
+        "description": "RAG app with models provided via Ollama, fully managed and open-source",
         "image": "/src/images/projects/botchat.jpg",
         "techs": ["NodeJS", "NextJS", "Ollama", "Cloudflare"],
         "code": "Code",
