@@ -108,6 +108,21 @@
         ]
       },
       {
+        "title": "Ollama Chat",
+        "description": "AI Botchat with models provided via Ollama, fully managed and open-source",
+        "image": "/src/images/projects/botchat.jpg",
+        "techs": ["NodeJS", "NextJS", "Ollama", "Cloudflare"],
+        "code": "Code",
+        "preview": "Preview",
+        "link": "https://zenze.moe/",
+        "source": [
+          {
+            "name": "Web",
+            "url": "https://github.com/Czer0C/botchat-ollama"
+          }
+        ]
+      },
+      {
         "title": "Discord Bot",
         "description": "A Discord bot to help automate server utility tasks like finding new manga chapter, RSS feed, and command management",
         "image": "/src/images/projects/discord-bot.jpg",
@@ -255,6 +270,10 @@
           {
             "name": "Github Copilot",
             "url": "https://copilot.github.com/"
+          },
+          {
+            "name": "Ollama",
+            "url": "https://ollama.com/"
           }
         ]
       },
