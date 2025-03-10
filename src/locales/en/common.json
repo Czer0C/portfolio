@@ -42,7 +42,10 @@
       "jobs_description": [
         {
           "title": "Fullstack Developer",
-          "time": ["2024", "2025"],
+          "time": [
+            "2024",
+            "2025"
+          ],
           "description": "Developed a real-time dashboard for Customer Premises Equipment (CPE) management, enabling device health monitoring, usage trend analysis, and issue diagnosis.",
           "list": [
             "Tech: React, GO, PostgreSQL, Retool",
@@ -51,7 +54,10 @@
         },
         {
           "title": "Full Stack Developer",
-          "time": ["2023", "2024"],
+          "time": [
+            "2023",
+            "2024"
+          ],
           "description": "Engineered a dual-purpose system combining network automation tools and a deeply nested topology traffic diagram.",
           "list": [
             "Tech: Python, ReactJS, MongoDB, SSH, Kibana",
@@ -60,7 +66,10 @@
         },
         {
           "title": "Full Stack Developer",
-          "time": ["2022", "2023"],
+          "time": [
+            "2022",
+            "2023"
+          ],
           "description": "Created an interactive IoT-integrated floorplan control system for real-time monitoring and remote management.",
           "list": [
             "Tech: JavaScript, SocketIO, MQTT, Node.js, PostgreSQL, Raspberry Pi",
@@ -69,7 +78,10 @@
         },
         {
           "title": "Full Stack Developer",
-          "time": ["2021", "2022"],
+          "time": [
+            "2021",
+            "2022"
+          ],
           "description": "Crafted a dynamic React.js frontend for a typhoon damage tracking system, delivering real-time dashboards that empowered disaster teams with actionable insights.",
           "list": [
             "Tech: React, JavaScript, Hadoop, Node.js, MySQL, MongoDB, Cron Jobs",
@@ -94,7 +106,7 @@
           "TailwindCSS"
         ],
         "code": "Code",
-        "link": "https://www.czer0c.top",
+        "link": "https://cloudflare-shortlink.vercel.app",
         "preview": "Visit",
         "source": [
           {
@@ -111,7 +123,12 @@
         "title": "Ollama Chat",
         "description": "RAG app with models provided via Ollama, fully managed and open-source",
         "image": "/src/images/projects/botchat.jpg",
-        "techs": ["NodeJS", "NextJS", "Ollama", "Cloudflare"],
+        "techs": [
+          "NodeJS",
+          "NextJS",
+          "Ollama",
+          "Cloudflare"
+        ],
         "code": "Code",
         "preview": "Preview",
         "link": "https://zenze.moe/",
@@ -126,7 +143,13 @@
         "title": "Discord Bot",
         "description": "A Discord bot to help automate server utility tasks like finding new manga chapter, RSS feed, and command management",
         "image": "/src/images/projects/discord-bot.jpg",
-        "techs": ["NodeJS", "Docker", "Cheerio", "RSS", "Supabase"],
+        "techs": [
+          "NodeJS",
+          "Docker",
+          "Cheerio",
+          "RSS",
+          "Supabase"
+        ],
         "code": "Code",
         "preview": "Preview",
         "link": "",
@@ -141,7 +164,13 @@
         "title": "Personal Blog",
         "description": "Movie blog to express myself and often share my in-depth analysis of the fictional works that I have experienced",
         "image": "/src/images/projects/blog.jpg",
-        "techs": ["Astro", "Ghost", "Cloudinary", "TailwindCSS", "SolidJS"],
+        "techs": [
+          "Astro",
+          "Ghost",
+          "Cloudinary",
+          "TailwindCSS",
+          "SolidJS"
+        ],
         "code": "Code",
         "preview": "Visit",
         "link": "https://gaft.space",
