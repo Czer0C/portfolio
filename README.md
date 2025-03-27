@@ -2,5 +2,4 @@
 
 ## TODO
 - Social Links
-- Finish EMS project
 - Add Blog section
